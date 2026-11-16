@@ -270,62 +270,57 @@ document.addEventListener("DOMContentLoaded", () => {
 
         try {
 
-            const url = new URL(videoUrl);
+            const url = new URL(videoUrl.trim());
 
             const hostname = url.hostname.toLowerCase();
 
             let videoId = "";
 
-            // youtu.be/影片ID
             if (hostname === "youtu.be") {
 
                 videoId = url.pathname.split("/").filter(Boolean)[0] || "";
 
-            }
-
-            // youtube.com/watch?v=影片ID
-            else if (
+            } else if (
                 hostname === "youtube.com" ||
                 hostname === "www.youtube.com" ||
-                hostname === "m.youtube.com"
+                hostname === "m.youtube.com" ||
+                hostname === "youtube-nocookie.com" ||
+                hostname === "www.youtube-nocookie.com"
             ) {
 
                 if (url.pathname === "/watch") {
 
                     videoId = url.searchParams.get("v") || "";
 
-                }
-
-                // youtube.com/embed/影片ID
-                else if (url.pathname.startsWith("/embed/")) {
-
-                    videoId = url.pathname.split("/")[2] || "";
-
-                }
-
-                // youtube.com/shorts/影片ID
-                else if (url.pathname.startsWith("/shorts/")) {
+                } else if (
+                    url.pathname.startsWith("/embed/") ||
+                    url.pathname.startsWith("/shorts/")
+                ) {
 
                     videoId = url.pathname.split("/")[2] || "";
 
                 }
+
+            } else {
+
+                return null;
 
             }
 
-            // 只接受標準 YouTube 影片 ID
             if (!/^[a-zA-Z0-9_-]{11}$/.test(videoId)) {
+                console.error("無效的 YouTube 影片 ID：", videoId);
                 return null;
             }
 
-            return `https://www.youtube-nocookie.com/embed/${videoId}`;
+            return `https://www.youtube.com/embed/${videoId}`;
 
         } catch (error) {
 
-            console.error("YouTube 網址格式錯誤：", error);
-
+            console.error("YouTube 網址解析失敗：", error);
             return null;
 
         }
+
     }
 
     // =========================
@@ -390,22 +385,25 @@ document.addEventListener("DOMContentLoaded", () => {
         // =========================
 
         // 先清除上一部影片
-        modalYoutube.src = "";
+
+        modalYoutube.removeAttribute("src");
 
         modalVideoContainer.hidden = true;
         modalImageContainer.hidden = true;
 
         const embedUrl = getYouTubeEmbedUrl(project.videoUrl);
 
+        console.log("目前作品：", project.title);
+        console.log("YouTube 原始網址：", project.videoUrl);
+        console.log("YouTube 嵌入網址：", embedUrl);
+
         if (embedUrl) {
 
-            // 有有效的 YouTube 網址：顯示影片
             modalYoutube.src = embedUrl;
             modalVideoContainer.hidden = false;
 
         } else {
 
-            // 沒有影片或網址無效：顯示作品圖片
             if (project.image) {
 
                 modalImage.src = project.image;
@@ -414,7 +412,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 modalImageContainer.hidden = false;
 
             }
-
         }
 
 
@@ -445,7 +442,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.remove("modal-open");
 
         // 清除 YouTube iframe 來源，停止影片播放
-        modalYoutube.src = "";
+        modalYoutube.removeAttribute("src");
 
         modalVideoContainer.hidden = true;
 
