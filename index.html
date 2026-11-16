@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Unity 遊戲前端工程師個人作品集，展示遊戲開發、互動系統與研究專案。">
+
+    <title>Unity Game Client Engineer | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- 導覽列 -->
+    <header class="navbar">
+        <div class="container navbar-inner">
+            <a href="#home" class="logo">PORTFOLIO<span>.</span></a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="開啟導覽選單"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links" id="nav-links">
+                <a href="#home">首頁</a>
+                <a href="#about">關於我</a>
+                <a href="#portfolio">作品集</a>
+                <a href="#contact">聯絡我</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- 首頁 Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-inner">
+
+                <div class="hero-content">
+                    <p class="eyebrow" id="hero-eyebrow">
+                        GAME CLIENT ENGINEER
+                    </p>
+
+                    <h1 id="hero-title">
+                        Unity Game<br>
+                        Client Engineer
+                    </h1>
+
+                    <p class="hero-description" id="hero-description">
+                        專注於遊戲前端開發與互動體驗設計。
+                    </p>
+
+                    <a href="#portfolio" class="button button-dark">
+                        瀏覽作品
+                        <span>↗</span>
+                    </a>
+                </div>
+
+                <div class="hero-side">
+                    <div class="hero-line"></div>
+                    <p id="hero-side-text">
+                        GAME DEVELOPMENT<br>
+                        INTERACTIVE EXPERIENCE
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="hero-bottom container">
+                <span>UNITY / C# / GAME DEVELOPMENT</span>
+                <span>SCROLL TO EXPLORE ↓</span>
+            </div>
+        </section>
+
+
+        <!-- 關於我 -->
+        <section class="section about-section" id="about">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">01 / ABOUT</p>
+                    <h2>關於我<span>.</span></h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-intro">
+                        <h3 id="about-title">
+                            About Me
+                        </h3>
+
+                        <p id="about-description"></p>
+                    </div>
+
+                    <div class="about-information">
+                        <div class="info-block">
+                            <p class="info-label">EDUCATION</p>
+                            <p id="education-text"></p>
+                        </div>
+
+                        <div class="info-block">
+                            <p class="info-label">SPECIALIZATION</p>
+                            <div id="skills-list" class="skills-list"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 作品集 -->
+        <section class="section portfolio-section" id="portfolio">
+            <div class="container">
+
+                <div class="section-heading portfolio-heading">
+                    <div>
+                        <p class="eyebrow">02 / SELECTED WORKS</p>
+                        <h2>作品集<span>.</span></h2>
+                    </div>
+
+                    <p class="section-note">
+                        Selected projects & experiences
+                    </p>
+                </div>
+
+                <!-- 作品分類篩選 -->
+                <div class="filter-list" id="filter-list"></div>
+
+                <!-- 作品卡片 -->
+                <div class="portfolio-grid" id="portfolio-list"></div>
+
+                <p class="empty-message" id="empty-message" hidden>
+                    目前沒有符合此分類的作品。
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- 聯絡我 -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+
+                <p class="eyebrow">03 / CONTACT</p>
+
+                <div class="contact-content">
+                    <h2 id="contact-title">
+                        Let's work<br>
+                        together<span>.</span>
+                    </h2>
+
+                    <p id="contact-description">
+                        歡迎與我聯繫，交流遊戲開發與合作機會。
+                    </p>
+
+                    <div class="contact-links" id="contact-links"></div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p id="footer-text">© 2026 Portfolio. All Rights Reserved.</p>
+            <a href="#home">BACK TO TOP ↑</a>
+        </div>
+    </footer>
+
+
+    <!-- 作品詳細內容 Modal -->
+    <div
+        class="modal-overlay"
+        id="portfolio-modal"
+        aria-hidden="true"
+    >
+        <div
+            class="modal-window"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="modal-title"
+        >
+
+            <button
+                class="modal-close"
+                id="modal-close"
+                type="button"
+                aria-label="關閉作品介紹"
+            >
+                ×
+            </button>
+
+            <div class="modal-content">
+
+                <p class="eyebrow" id="modal-category"></p>
+
+                <h2 id="modal-title"></h2>
+
+                <p class="modal-description" id="modal-description"></p>
+
+                <!-- 影片播放區域 -->
+                <div class="modal-video" id="modal-video-container" hidden>
+                    <video
+                        id="modal-video"
+                        controls
+                        playsinline
+                        preload="metadata"
+                    >
+                        您的瀏覽器不支援 HTML5 影片播放。
+                    </video>
+                </div>
+
+                <!-- 沒有影片時顯示作品圖片 -->
+                <div class="modal-image" id="modal-image-container" hidden>
+                    <img id="modal-image" src="" alt="">
+                </div>
+
+                <!-- 技術標籤 -->
+                <div class="modal-tech" id="modal-technologies"></div>
+
+                <!-- 詳細介紹 -->
+                <div class="modal-details" id="modal-details"></div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

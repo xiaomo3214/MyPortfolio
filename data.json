@@ -1,0 +1,234 @@
+﻿{
+  "profile": {
+    "eyebrow": "UNITY GAME CLIENT ENGINEER",
+    "heroTitle": "Unity Game Client Engineer",
+    "heroDescription": "專注於 Unity 遊戲前端開發、互動系統實作與遊戲體驗設計。",
+    "heroSideText": "GAME DEVELOPMENT\nINTERACTIVE EXPERIENCE",
+    "aboutTitle": "About Me",
+    "aboutDescription": "具備 Unity 遊戲開發與互動系統實作經驗，熟悉 C# 程式設計及遊戲前端開發流程。\n\n曾參與遊戲開發、AR 多人互動系統及研究專案，從需求分析、功能規劃到程式實作，累積不同類型的專案經驗。\n\n期望持續精進遊戲開發技術，打造穩定且具有良好互動體驗的遊戲作品。",
+    "education": "研究所｜請填入學校與科系\n大學｜請填入學校與科系"
+  },
+
+  "skills": [
+    "Unity",
+    "C#",
+    "Unity UI",
+    "Game Client Development",
+    "3D Game Development",
+    "AR Interactive System",
+    "Git",
+    "Visual Studio"
+  ],
+
+  "categories": [
+    {
+      "id": "all",
+      "label": "全部作品"
+    },
+    {
+      "id": "work",
+      "label": "就職作品"
+    },
+    {
+      "id": "graduate",
+      "label": "研究所成果"
+    },
+    {
+      "id": "university",
+      "label": "大學專案"
+    }
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "category": "work",
+      "tag": "WORK EXPERIENCE",
+      "year": "就職作品",
+      "title": "未上市 3D 動作遊戲前端開發",
+      "description": "參與 3D 動作遊戲前端功能開發與遊戲系統實作。",
+      "image": "images/project-01.jpg",
+      "imageAlt": "3D 動作遊戲作品展示",
+      "video": "videos/00_FreeTicket.mp4",
+      "technologies": [
+        "Unity",
+        "C#",
+        "3D Game",
+        "Game Client"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "category": "graduate",
+      "tag": "GRADUATE PROJECT",
+      "year": "研究所成果",
+      "title": "跨場域 AR 多人互動展演系統",
+      "description": "與台北電腦商會合作，參與跨場域 AR 多人互動展演系統開發。",
+      "image": "images/project-02.jpg",
+      "imageAlt": "跨場域 AR 多人互動展演系統",
+      "video": "videos/project-02.mp4",
+      "technologies": [
+        "Unity",
+        "C#",
+        "AR",
+        "Multiplayer Interaction"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "研究所期間參與與台北電腦商會合作的專案，開發跨場域 AR 多人互動展演系統。"
+        },
+        {
+          "heading": "專案目標",
+          "content": "透過 AR 技術與多人互動機制，呈現跨場域的互動展演體驗。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "請依實際參與內容補充 Unity 功能開發、互動邏輯、系統整合及測試等工作。"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "category": "graduate",
+      "tag": "MASTER THESIS",
+      "year": "研究所論文",
+      "title": "基於 Unity 的即時視線追蹤與渲染優化",
+      "description": "以 Unity 為開發環境，研究即時視線追蹤與渲染優化相關技術。",
+      "image": "images/project-03.jpg",
+      "imageAlt": "即時視線追蹤與渲染優化研究",
+      "video": "videos/project-03.mp4",
+      "technologies": [
+        "Unity",
+        "C#",
+        "Eye Tracking",
+        "Rendering Optimization"
+      ],
+      "details": [
+        {
+          "heading": "研究背景",
+          "content": "以 Unity 作為研究與開發平台，探討即時視線追蹤技術及其在渲染優化上的應用。"
+        },
+        {
+          "heading": "研究內容",
+          "content": "依論文實際研究內容補充視線追蹤資料處理、渲染策略與系統實作方式。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "透過 Unity 與 C# 實作研究功能，並進行相關測試與結果分析。"
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "category": "university",
+      "tag": "UNIVERSITY PROJECT",
+      "year": "大學畢業專題",
+      "title": "《代號：流浪者》3D 動作冒險遊戲",
+      "description": "以 Unity 製作的 3D 動作冒險遊戲，整合遊戲玩法與互動機制。",
+      "image": "images/project-04.jpg",
+      "imageAlt": "代號流浪者 3D 動作冒險遊戲",
+      "video": "videos/project-04.mp4",
+      "technologies": [
+        "Unity",
+        "C#",
+        "3D Game",
+        "Game Design"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "大學畢業專題作品，以 Unity 開發 3D 動作冒險遊戲《代號：流浪者》。"
+        },
+        {
+          "heading": "遊戲內容",
+          "content": "可在此補充遊戲背景、主要玩法、關卡設計與特色系統。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "請依實際分工補充個人負責的遊戲功能、程式設計及整合項目。"
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "category": "university",
+      "tag": "UNIVERSITY PROJECT",
+      "year": "大學期末專案",
+      "title": "多媒體音效網格 2D 解謎遊戲",
+      "description": "結合多媒體音效與解謎玩法的 2D 遊戲專案。",
+      "image": "images/project-05.jpg",
+      "imageAlt": "多媒體音效網格 2D 解謎遊戲",
+      "video": "videos/project-05.mp4",
+      "technologies": [
+        "Unity",
+        "C#",
+        "2D Game",
+        "Audio"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "大學期間製作的 2D 解謎遊戲，結合多媒體音效與遊戲互動機制。"
+        },
+        {
+          "heading": "遊戲特色",
+          "content": "可在此補充音效網格設計、解謎規則與遊戲互動方式。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "請依實際分工補充個人負責的程式功能、音效整合與遊戲設計項目。"
+        }
+      ]
+    }
+  ],
+
+  "contact": {
+    "title": "Let's work together.",
+    "description": "歡迎與我聯繫，交流遊戲開發技術與合作機會。",
+    "links": [
+      {
+        "label": "Email ↗",
+        "url": "mailto:your-email@example.com",
+        "external": false
+      },
+      {
+        "label": "GitHub ↗",
+        "url": "https://github.com/your-username",
+        "external": true
+      },
+      {
+        "label": "LinkedIn ↗",
+        "url": "https://www.linkedin.com/in/your-username",
+        "external": true
+      },
+      {
+        "label": "Itch.io ↗",
+        "url": "https://your-username.itch.io/",
+        "external": true
+      }
+    ]
+  },
+
+  "footer": {
+    "text": "© 2026 Portfolio. All Rights Reserved."
+  }
+}
