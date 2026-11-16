@@ -576,12 +576,11 @@ img {
     overflow: hidden;
 }
 
-.modal-video video {
+.modal-video iframe {
     display: block;
     width: 100%;
-    max-height: 520px;
     aspect-ratio: 16 / 9;
-    object-fit: contain;
+    border: 0;
     background: #111;
 }
 

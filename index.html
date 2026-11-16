@@ -216,16 +216,16 @@
 
                 <p class="modal-description" id="modal-description"></p>
 
-                <!-- 影片播放區域 -->
+                <!-- YouTube 影片播放區域 -->
                 <div class="modal-video" id="modal-video-container" hidden>
-                    <video
-                        id="modal-video"
-                        controls
-                        playsinline
-                        preload="metadata"
-                    >
-                        您的瀏覽器不支援 HTML5 影片播放。
-                    </video>
+                    <iframe
+                        id="modal-youtube"
+                        src=""
+                        title="作品介紹影片"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
                 </div>
 
                 <!-- 沒有影片時顯示作品圖片 -->

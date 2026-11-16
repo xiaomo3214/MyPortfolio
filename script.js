@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalDescription = document.getElementById("modal-description");
 
     const modalVideoContainer = document.getElementById("modal-video-container");
-    const modalVideo = document.getElementById("modal-video");
+    const modalYoutube = document.getElementById("modal-youtube");
 
     const modalImageContainer = document.getElementById("modal-image-container");
     const modalImage = document.getElementById("modal-image");
@@ -258,6 +258,75 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
+    // =========================
+    // YouTube 網址轉換
+    // =========================
+
+    function getYouTubeEmbedUrl(videoUrl) {
+
+        if (!videoUrl || typeof videoUrl !== "string") {
+            return null;
+        }
+
+        try {
+
+            const url = new URL(videoUrl);
+
+            const hostname = url.hostname.toLowerCase();
+
+            let videoId = "";
+
+            // youtu.be/影片ID
+            if (hostname === "youtu.be") {
+
+                videoId = url.pathname.split("/").filter(Boolean)[0] || "";
+
+            }
+
+            // youtube.com/watch?v=影片ID
+            else if (
+                hostname === "youtube.com" ||
+                hostname === "www.youtube.com" ||
+                hostname === "m.youtube.com"
+            ) {
+
+                if (url.pathname === "/watch") {
+
+                    videoId = url.searchParams.get("v") || "";
+
+                }
+
+                // youtube.com/embed/影片ID
+                else if (url.pathname.startsWith("/embed/")) {
+
+                    videoId = url.pathname.split("/")[2] || "";
+
+                }
+
+                // youtube.com/shorts/影片ID
+                else if (url.pathname.startsWith("/shorts/")) {
+
+                    videoId = url.pathname.split("/")[2] || "";
+
+                }
+
+            }
+
+            // 只接受標準 YouTube 影片 ID
+            if (!/^[a-zA-Z0-9_-]{11}$/.test(videoId)) {
+                return null;
+            }
+
+            return `https://www.youtube-nocookie.com/embed/${videoId}`;
+
+        } catch (error) {
+
+            console.error("YouTube 網址格式錯誤：", error);
+
+            return null;
+
+        }
+    }
 
     // =========================
     // 開啟 Modal
@@ -317,30 +386,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
         // =========================
-        // 判斷是否有影片
+        // 判斷是否有 YouTube 影片
         // =========================
 
-        modalVideo.pause();
-        modalVideo.removeAttribute("src");
-        modalVideo.load();
+        // 先清除上一部影片
+        modalYoutube.src = "";
 
         modalVideoContainer.hidden = true;
         modalImageContainer.hidden = true;
 
-        if (project.video) {
+        const embedUrl = getYouTubeEmbedUrl(project.videoUrl);
 
-            // 有影片：顯示影片播放器
-            modalVideo.src = project.video;
+        if (embedUrl) {
+
+            // 有有效的 YouTube 網址：顯示影片
+            modalYoutube.src = embedUrl;
             modalVideoContainer.hidden = false;
-            modalVideo.load();
 
-        } else if (project.image) {
+        } else {
 
-            // 沒有影片：改為顯示作品圖片
-            modalImage.src = project.image;
-            modalImage.alt = project.imageAlt || project.title || "作品圖片";
+            // 沒有影片或網址無效：顯示作品圖片
+            if (project.image) {
 
-            modalImageContainer.hidden = false;
+                modalImage.src = project.image;
+                modalImage.alt = project.imageAlt || project.title || "作品圖片";
+
+                modalImageContainer.hidden = false;
+
+            }
 
         }
 
@@ -371,12 +444,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
         document.body.classList.remove("modal-open");
 
-        // 停止影片播放
-        modalVideo.pause();
-
-        // 清除影片來源，避免關閉後仍繼續載入
-        modalVideo.removeAttribute("src");
-        modalVideo.load();
+        // 清除 YouTube iframe 來源，停止影片播放
+        modalYoutube.src = "";
 
         modalVideoContainer.hidden = true;
 

@@ -49,7 +49,7 @@
       "description": "參與 3D 動作遊戲前端功能開發與遊戲系統實作。",
       "image": "images/project-01.jpg",
       "imageAlt": "3D 動作遊戲作品展示",
-      "video": "videos/00_FreeTicket.mp4",
+      "videoUrl": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID",
       "technologies": [
         "Unity",
         "C#",
