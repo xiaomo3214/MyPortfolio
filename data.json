@@ -30,12 +30,8 @@
       "label": "就職作品"
     },
     {
-      "id": "graduate",
-      "label": "研究所成果"
-    },
-    {
-      "id": "university",
-      "label": "大學專案"
+      "id": "researchandproject",
+      "label": "研究與專題"
     }
   ],
 
@@ -74,7 +70,7 @@
 
     {
       "id": 2,
-      "category": "graduate",
+      "category": "researchandproject",
       "tag": "GRADUATE PROJECT",
       "year": "研究所成果",
       "title": "跨場域 AR 多人互動展演系統",
@@ -106,7 +102,7 @@
 
     {
       "id": 3,
-      "category": "graduate",
+      "category": "researchandproject",
       "tag": "MASTER THESIS",
       "year": "研究所論文",
       "title": "基於 Unity 的即時視線追蹤與渲染優化",
