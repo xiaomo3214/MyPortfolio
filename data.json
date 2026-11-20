@@ -6,7 +6,7 @@
     "heroSideText": "GAME DEVELOPMENT\nINTERACTIVE EXPERIENCE",
     "aboutTitle": "About Me",
     "aboutDescription": "具備 Unity 遊戲開發與互動系統實作經驗，熟悉 C# 程式設計及遊戲前端開發流程。\n\n曾參與遊戲開發、AR 多人互動系統及研究專案，從需求分析、功能規劃到程式實作，累積不同類型的專案經驗。\n\n期望持續精進遊戲開發技術，打造穩定且具有良好互動體驗的遊戲作品。",
-    "education": "研究所｜請填入學校與科系\n大學｜請填入學校與科系"
+    "education": "研究所｜國立臺北教育大學 數位科技設計學系玩具與遊戲設計研究所\n大學｜銘傳大學 資訊傳播工程學系"
   },
 
   "skills": [
@@ -203,23 +203,13 @@
     "links": [
       {
         "label": "Email ↗",
-        "url": "mailto:your-email@example.com",
+        "url": "meteor13579@yahoo.com.tw",
         "external": false
       },
       {
-        "label": "GitHub ↗",
-        "url": "https://github.com/your-username",
-        "external": true
-      },
-      {
-        "label": "LinkedIn ↗",
-        "url": "https://www.linkedin.com/in/your-username",
-        "external": true
-      },
-      {
-        "label": "Itch.io ↗",
-        "url": "https://your-username.itch.io/",
-        "external": true
+        "label": "Phone ↗",
+        "url": "0932-154-710",
+        "external": false
       }
     ]
   },
