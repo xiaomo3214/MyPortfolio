@@ -391,7 +391,7 @@
     },
 
     {
-      "id": 2,
+      "id": 12,
       "category": "school",
       "tag": "GRADUATE PROJECT",
       "year": "研究所成果",
@@ -423,7 +423,7 @@
     },
 
     {
-      "id": 3,
+      "id": 13,
       "category": "school",
       "tag": "MASTER THESIS",
       "year": "研究所論文",
@@ -455,7 +455,7 @@
     },
 
     {
-      "id": 4,
+      "id": 14,
       "category": "school",
       "tag": "UNIVERSITY PROJECT",
       "year": "大學畢業專題",
@@ -487,7 +487,7 @@
     },
 
     {
-      "id": 5,
+      "id": 15,
       "category": "school",
       "tag": "UNIVERSITY PROJECT",
       "year": "大學期末專案",
