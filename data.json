@@ -28,8 +28,8 @@
       "label": "全部作品"
     },
     {
-      "id": "work",
-      "label": "就職作品"
+      "id": "MrDiamond",
+      "label": "鑽石大亨娛樂城"
     },
     {
       "id": "school",
@@ -40,10 +40,10 @@
   "projects": [
     {
       "id": 1,
-      "category": "work",
+      "category": "MrDiamond",
       "tag": "WORK EXPERIENCE",
-      "year": "2025",
-      "title": "北歐諸神Ragnarok",
+      "year": "2025/02-2025/03",
+      "title": "北歐諸神 Ragnarok",
       "description": "此款遊戲為3x5連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
       "image": "images/01_Ragnarok.jpg",
       "imageAlt": "遊戲畫面展示",
@@ -51,7 +51,327 @@
       "technologies": [
         "Unity",
         "C#",
-        "3D Game",
+        "2D Game",
+        "Game Client"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "category": "MrDiamond",
+      "tag": "WORK EXPERIENCE",
+      "year": "2025/04-2025/05",
+      "title": "金鑽水果盤 Fruit",
+      "description": "此款遊戲為3x3連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "image": "images/02_Fruit.jpg",
+      "imageAlt": "遊戲畫面展示",
+      "videoUrl": "https://www.youtube.com/embed/3flD3Rts6kM?si=n6HJgaH4VCxUmtmr",
+      "technologies": [
+        "Unity",
+        "C#",
+        "2D Game",
+        "Game Client"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "category": "MrDiamond",
+      "tag": "WORK EXPERIENCE",
+      "year": "2025/05-2025/06",
+      "title": "埃及:諸神爭霸 GodsOfEgypt",
+      "description": "此款遊戲為3x5連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "image": "images/03_GodsOfEgypt.jpg",
+      "imageAlt": "遊戲畫面展示",
+      "videoUrl": "https://www.youtube.com/embed/qVKa0CNk9N8?si=fljEb4cZHwM9RP58",
+      "technologies": [
+        "Unity",
+        "C#",
+        "2D Game",
+        "Game Client"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "category": "MrDiamond",
+      "tag": "WORK EXPERIENCE",
+      "year": "2025/06-2025/07",
+      "title": "倩影三國 HeroineFate",
+      "description": "此款遊戲為3x5連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "image": "images/04_HeroineFate.jpg",
+      "imageAlt": "遊戲畫面展示",
+      "videoUrl": "https://www.youtube.com/embed/QLHUQvZeikE?si=hFrMHl_PtXH1iG29",
+      "technologies": [
+        "Unity",
+        "C#",
+        "2D Game",
+        "Game Client"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "category": "MrDiamond",
+      "tag": "WORK EXPERIENCE",
+      "year": "2025/07-2025/08",
+      "title": "鑽石輪盤 DiamondRoulette",
+      "description": "此款遊戲為，負責遊戲前端相關功能與輪盤輪轉的展演過程。",
+      "image": "images/05_DiamondRoulette.jpg",
+      "imageAlt": "遊戲畫面展示",
+      "videoUrl": "https://www.youtube.com/embed/8U70UM6cIgc?si=7i6EoZHO0zk-wFgl",
+      "technologies": [
+        "Unity",
+        "C#",
+        "2D Game",
+        "Game Client"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        }
+      ]
+    },
+
+    {
+      "id": 6,
+      "category": "MrDiamond",
+      "tag": "WORK EXPERIENCE",
+      "year": "2025/08-2025/09",
+      "title": "鬥陣迺夜市 NightMarket",
+      "description": "此款遊戲為3x5連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "image": "images/06_NightMarket.jpg",
+      "imageAlt": "遊戲畫面展示",
+      "videoUrl": "https://www.youtube.com/embed/h6mAo2SNivg?si=yYkoaCmAn3W80SOy",
+      "technologies": [
+        "Unity",
+        "C#",
+        "2D Game",
+        "Game Client"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        }
+      ]
+    },
+
+    {
+      "id": 7,
+      "category": "MrDiamond",
+      "tag": "WORK EXPERIENCE",
+      "year": "2025/09-2025/11",
+      "title": "搶莊牛牛 BankerBull",
+      "description": "此款遊戲為多人卡牌遊戲，負責遊戲前端相關功能與牌局流程的展演過程。",
+      "image": "images/07_BankerBull.jpg",
+      "imageAlt": "遊戲畫面展示",
+      "videoUrl": "https://www.youtube.com/embed/rtKi9UE0JEg?si=0gpKiTFMz_rLIQpC",
+      "technologies": [
+        "Unity",
+        "C#",
+        "2D Game",
+        "Game Client"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        }
+      ]
+    },
+
+    {
+      "id": 8,
+      "category": "MrDiamond",
+      "tag": "WORK EXPERIENCE",
+      "year": "2025/12-2026/02",
+      "title": "喵喵彩券行 MeowMeowLotto",
+      "description": "此款遊戲為5x6消除型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "image": "images/08_MeowMeowLotto.jpg",
+      "imageAlt": "遊戲畫面展示",
+      "videoUrl": "https://www.youtube.com/embed/u174ZrJQbT8?si=z3L-EKkP7d-M_i5V",
+      "technologies": [
+        "Unity",
+        "C#",
+        "2D Game",
+        "Game Client"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        }
+      ]
+    },
+
+    {
+      "id": 9,
+      "category": "MrDiamond",
+      "tag": "WORK EXPERIENCE",
+      "year": "2026/03-2026/05",
+      "title": "聚寶盆 TreasureBowl",
+      "description": "此款遊戲為柏青斯洛老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "image": "images/09_TreasureBowl.jpg",
+      "imageAlt": "遊戲畫面展示",
+      "videoUrl": "https://www.youtube.com/embed/JF4JI6iTxlw?si=CBJD2ObvQHxozGBW",
+      "technologies": [
+        "Unity",
+        "C#",
+        "2D Game",
+        "Game Client"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        }
+      ]
+    },
+
+    {
+      "id": 10,
+      "category": "MrDiamond",
+      "tag": "WORK EXPERIENCE",
+      "year": "2026/05-2026/07",
+      "title": "熱帶黃金島 TropicalGoldenIsland",
+      "description": "此款遊戲為3x5連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "image": "images/10_TropicalGoldenIsland.jpg",
+      "imageAlt": "遊戲畫面展示",
+      "videoUrl": "https://www.youtube.com/embed/jra_UIwpkpk?si=Z8VdgJsGYEbdr9u9",
+      "technologies": [
+        "Unity",
+        "C#",
+        "2D Game",
+        "Game Client"
+      ],
+      "details": [
+        {
+          "heading": "專案介紹",
+          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+        },
+        {
+          "heading": "負責內容",
+          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+        },
+        {
+          "heading": "技術應用",
+          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        }
+      ]
+    },
+
+    {
+      "id": 11,
+      "category": "MrDiamond",
+      "tag": "WORK EXPERIENCE",
+      "year": "2026/06-2026/07",
+      "title": "皇家比大小 RoyalHiLo",
+      "description": "此款遊戲為撲克牌遊戲，負責遊戲前端相關功能與比大小的展演過程。",
+      "image": "images/11_RoyalHiLo.jpg",
+      "imageAlt": "遊戲畫面展示",
+      "videoUrl": "https://www.youtube.com/embed/OcPUF6yQQ4Y?si=4-dAP9Prp8Z1fWbx",
+      "technologies": [
+        "Unity",
+        "C#",
+        "2D Game",
         "Game Client"
       ],
       "details": [

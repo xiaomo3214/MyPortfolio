@@ -358,7 +358,7 @@ img {
 .card-image {
     position: relative;
     width: 100%;
-    aspect-ratio: 24 / 9;
+    aspect-ratio: 2400px / 1080px;
     overflow: hidden;
     background: #e8e6df;
 }
