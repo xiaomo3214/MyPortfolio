@@ -6,20 +6,19 @@
     "heroSideText": "GAME DEVELOPMENT\nINTERACTIVE EXPERIENCE",
     "aboutTitle": "About Me",
     "aboutDescription": "具備 Unity 遊戲開發與互動系統實作經驗，熟悉 C# 程式設計及遊戲前端開發流程。\n\n曾參與遊戲開發、VR研究專案，以及互動式網頁製作，從需求分析、功能規劃到程式實作，累積不同類型的專案經驗。\n\n期望持續精進遊戲開發技術，打造穩定且具有良好互動體驗的遊戲作品。",
+    "workExperience": "Ｕnity遊戲前端工程師｜復旦電競有限公司｜2025/02-2026/08"
     "education": "研究所｜國立臺北教育大學 數位科技設計學系玩具與遊戲設計碩士班\n大學｜銘傳大學 資訊傳播工程學系"
   },
 
   "skills": [
     "Unity",
     "C#",
-    "Unity UI",
     "Game Client Development",
-    "3D Game Development",
+    "2D/3D Game Development",
     "VR Interactive System",
-    "Git",
-    "Visual Studio",
-    "Maya",
-    "VR"
+    "GitHub",
+    "VR",
+    "Maya"
   ],
 
   "categories": [
@@ -51,13 +50,14 @@
       "technologies": [
         "Unity",
         "C#",
+        "DOTween",
         "2D Game",
         "Game Client"
       ],
       "details": [
         {
           "heading": "專案介紹",
-          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+          "content": ""
         },
         {
           "heading": "負責內容",
