@@ -88,6 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         setText("about-title", profile.aboutTitle);
         setText("about-description", profile.aboutDescription);
+        setText("workExperience-text", profile.workExperience)
         setText("education-text", profile.education);
 
     }
