@@ -276,6 +276,12 @@ img {
     color: var(--color-muted);
 }
 
+#workExperience-text{
+   white-space: pre-line;
+   font-size: 14px;
+   line-height: 2;
+}
+
 #education-text {
     white-space: pre-line;
     font-size: 14px;
