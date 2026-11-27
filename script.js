@@ -486,7 +486,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // =========================
     // 聯絡資訊
     // =========================
-
+        
     function renderContact(contact = {}) {
 
         setText("contact-title", contact.title);
@@ -509,7 +509,13 @@ document.addEventListener("DOMContentLoaded", () => {
             const link = document.createElement("a");
 
             link.textContent = item.label || item.name || "Link";
-            link.href = item.url;
+
+            // Email 使用 mailto: 格式
+            if (item.type === "email") {
+                link.href = `mailto:${item.url}`;
+            } else {
+                link.href = item.url;
+            }
 
             if (item.external) {
                 link.target = "_blank";
@@ -517,10 +523,9 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             container.appendChild(link);
-
         });
-
     }
+
 
 
     // =========================

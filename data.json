@@ -70,7 +70,7 @@
         },
         {
           "heading": "開發重點與挑戰",
-          "content": "•Unity:遊戲前端功能、UI與互動流程開發。\n•C#:遊戲功能邏輯及流程控制。\n•DOTween:動畫效果及遊戲畫面動態呈現。"
+          "content": "•"
         }
       ]
     },
@@ -89,6 +89,7 @@
       "technologies": [
         "Unity",
         "C#",
+        "DOTween",
         "2D Game",
         "Game Client"
       ],
@@ -104,6 +105,10 @@
         {
           "heading": "技術應用",
           "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -122,6 +127,7 @@
       "technologies": [
         "Unity",
         "C#",
+        "DOTween",
         "2D Game",
         "Game Client"
       ],
@@ -137,6 +143,10 @@
         {
           "heading": "技術應用",
           "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -155,6 +165,7 @@
       "technologies": [
         "Unity",
         "C#",
+        "DOTween",
         "2D Game",
         "Game Client"
       ],
@@ -170,6 +181,10 @@
         {
           "heading": "技術應用",
           "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -188,6 +203,7 @@
       "technologies": [
         "Unity",
         "C#",
+        "DOTween",
         "2D Game",
         "Game Client"
       ],
@@ -203,6 +219,10 @@
         {
           "heading": "技術應用",
           "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -221,6 +241,7 @@
       "technologies": [
         "Unity",
         "C#",
+        "DOTween",
         "2D Game",
         "Game Client"
       ],
@@ -236,6 +257,10 @@
         {
           "heading": "技術應用",
           "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -254,6 +279,7 @@
       "technologies": [
         "Unity",
         "C#",
+        "DOTween",
         "2D Game",
         "Game Client"
       ],
@@ -269,6 +295,10 @@
         {
           "heading": "技術應用",
           "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -287,6 +317,7 @@
       "technologies": [
         "Unity",
         "C#",
+        "DOTween",
         "2D Game",
         "Game Client"
       ],
@@ -302,6 +333,10 @@
         {
           "heading": "技術應用",
           "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -320,6 +355,7 @@
       "technologies": [
         "Unity",
         "C#",
+        "DOTween",
         "2D Game",
         "Game Client"
       ],
@@ -335,6 +371,10 @@
         {
           "heading": "技術應用",
           "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -353,6 +393,7 @@
       "technologies": [
         "Unity",
         "C#",
+        "DOTween",
         "2D Game",
         "Game Client"
       ],
@@ -368,6 +409,10 @@
         {
           "heading": "技術應用",
           "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -386,6 +431,7 @@
       "technologies": [
         "Unity",
         "C#",
+        "DOTween",
         "2D Game",
         "Game Client"
       ],
@@ -401,6 +447,10 @@
         {
           "heading": "技術應用",
           "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -434,6 +484,10 @@
         {
           "heading": "負責內容",
           "content": "請依實際參與內容補充 Unity 功能開發、互動邏輯、系統整合及測試等工作。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -467,6 +521,10 @@
         {
           "heading": "技術應用",
           "content": "透過 Unity 與 C# 實作研究功能，並進行相關測試與結果分析。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -500,6 +558,10 @@
         {
           "heading": "負責內容",
           "content": "請依實際分工補充個人負責的遊戲功能、程式設計及整合項目。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     },
@@ -533,6 +595,10 @@
         {
           "heading": "負責內容",
           "content": "請依實際分工補充個人負責的程式功能、音效整合與遊戲設計項目。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•"
         }
       ]
     }
@@ -543,13 +609,14 @@
     "description": "歡迎與我聯繫，交流遊戲開發技術與合作機會。",
     "links": [
       {
+        "type": "email",
         "label": "Email ↗",
         "url": "meteor13579@yahoo.com.tw",
-        "external": false
       },
       {
-        "label": "Phone ↗",
-        "url": "0932-154-710",
+        "type": "social",
+        "label": " ↗",
+        "url": "1",
         "external": false
       }
     ]
