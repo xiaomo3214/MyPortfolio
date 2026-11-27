@@ -32,7 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         try {
 
-            const response = await fetch("./data.json");
+            const response = await fetch("./data.json", {
+                cache: "no-store"
+            });
 
             if (!response.ok) {
                 throw new Error(`HTTP Error: ${response.status}`);
