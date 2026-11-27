@@ -198,6 +198,7 @@ img {
 }
 
 .hero-side p {
+    white-space: pre-line;
     font-size: 10px;
     line-height: 1.8;
     letter-spacing: 1.5px;
