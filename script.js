@@ -334,7 +334,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         modalTitle.textContent = project.title || "";
         modalCategory.textContent = project.tag || "";
-        modalDescription.textContent = project.description || "";
+        modalDescription.textContent = project.projectSubtitle || "";
 
         // 清空前一次作品的技術標籤
         modalTechnologies.replaceChildren();
