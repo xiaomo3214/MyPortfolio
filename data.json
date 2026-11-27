@@ -81,22 +81,21 @@
       "tag": "WORK EXPERIENCE",
       "year": "2025/04-2025/05",
       "title": "金鑽水果盤 Fruit",
-      "description": "此款遊戲為3x3連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
-      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
+      "description": "3×3 連線型老虎機遊戲，以經典水果圖案為主題，主要負責Unity遊戲前端功能開發與轉輪動畫流程實作。",
+      "projectSubtitle": "3×3 Slot Game｜Unity Game Client",
       "image": "images/02_Fruit.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/3flD3Rts6kM?si=n6HJgaH4VCxUmtmr",
       "technologies": [
         "Unity",
         "C#",
-        "DOTween",
         "2D Game",
         "Game Client"
       ],
       "details": [
         {
           "heading": "專案介紹",
-          "content": "參與未上市 3D 動作遊戲開發，負責遊戲前端相關功能與系統實作。"
+          "content": "《金鑽水果盤》為一款 3×3 連線型老虎機遊戲，以經典水果圖案為主題，透過轉輪旋轉產生不同的水果排列組合，依據遊戲規則進行連線判定與獎勵計算。"
         },
         {
           "heading": "負責內容",
