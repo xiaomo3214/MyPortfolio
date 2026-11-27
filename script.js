@@ -487,54 +487,115 @@ document.addEventListener("DOMContentLoaded", () => {
     // 聯絡資訊
     // =========================
         
-    function renderContact(contact = {}) {
+    
+    async function renderContact(contact = {}) {
 
-        setText("contact-title", contact.title);
-        setText("contact-description", contact.description);
-
+        const title = document.getElementById("contact-title");
+        const description = document.getElementById("contact-description");
         const container = document.getElementById("contact-links");
 
+        // 清除舊資料
+        title.textContent = contact.title || "";
+        description.textContent = "";
         container.replaceChildren();
 
+        // 檢查 JSON 是否有連結資料
         const links = Array.isArray(contact.links)
             ? contact.links
             : [];
 
-        links.forEach(item => {
+        if (links.length === 0) {
+            return;
+        }
 
-            if (!item.url) {
-                return;
+        // 逐一檢查連結有效性
+        const validLinks = [];
+
+        for (const item of links) {
+
+            if (!item || !item.url || !item.type) {
+                continue;
             }
+
+            // Email 格式檢查
+            if (item.type === "email") {
+
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+                if (!emailPattern.test(item.url)) {
+                    continue;
+                }
+
+            }
+
+            // Resume 檔案存在性檢查
+            else if (item.type === "download") {
+
+                try {
+
+                    const response = await fetch(item.url, {
+                        method: "HEAD",
+                        cache: "no-store"
+                    });
+
+                    if (!response.ok) {
+                        continue;
+                    }
+
+                } catch (error) {
+
+                    console.warn("檔案不存在或無法讀取：", item.url);
+                    continue;
+
+                }
+
+            }
+
+            validLinks.push(item);
+        }
+
+        // 沒有任何有效連結，只顯示標題
+        if (validLinks.length === 0) {
+            return;
+        }
+
+        // 有有效連結才顯示描述
+        description.textContent = contact.description || "";
+
+        // 建立有效連結
+        validLinks.forEach(item => {
 
             const link = document.createElement("a");
 
             link.textContent = item.label || item.name || "Link";
 
-            // Email：開啟郵件撰寫視窗
+            // Email
             if (item.type === "email") {
                 link.href = `mailto:${item.url}`;
             }
 
-            // Resume：下載履歷 PDF
+            // Resume Download
             else if (item.type === "download") {
                 link.href = item.url;
                 link.download = "";
             }
 
-            // 其他一般連結
+            // External Link
             else {
                 link.href = item.url;
             }
 
-            // 外部連結
             if (item.external) {
                 link.target = "_blank";
                 link.rel = "noopener noreferrer";
             }
 
             container.appendChild(link);
+
         });
+
     }
+
 
 
 

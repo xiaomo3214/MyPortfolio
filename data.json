@@ -615,7 +615,8 @@
       },
       {
         "type": "download",
-        "label": "Download Resume ↓"
+        "label": "Download Resume ↓",
+        "url": "./assets/resume.pdf"
       }
     ]
   },
