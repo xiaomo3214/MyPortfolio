@@ -6,7 +6,7 @@
     "heroSideText": "GAME DEVELOPMENT\nINTERACTIVE EXPERIENCE",
     "aboutTitle": "About Me",
     "aboutDescription": "具備 Unity 遊戲開發與互動系統實作經驗，熟悉 C# 程式設計及遊戲前端開發流程。\n\n曾參與遊戲開發、VR研究專案，以及互動式網頁製作，從需求分析、功能規劃到程式實作，累積不同類型的專案經驗。\n\n期望持續精進遊戲開發技術，打造穩定且具有良好互動體驗的遊戲作品。",
-    "workExperience": "Ｕnity遊戲前端工程師｜復旦電競有限公司｜2025/02-2026/08",
+    "workExperience": "Unity遊戲前端工程師｜復旦電競有限公司｜2025/02-2026/08",
     "education": "研究所｜國立臺北教育大學 數位科技設計學系玩具與遊戲設計碩士班\n大學｜銘傳大學 資訊傳播工程學系"
   },
 
@@ -27,7 +27,7 @@
       "label": "全部作品"
     },
     {
-      "id": "MrDiamond",
+      "id": "mrDiamond",
       "label": "鑽石大亨娛樂城"
     },
     {
@@ -39,11 +39,12 @@
   "projects": [
     {
       "id": 1,
-      "category": "MrDiamond",
+      "category": "mrDiamond",
       "tag": "WORK EXPERIENCE",
       "year": "2025/02-2025/03",
       "title": "北歐諸神 Ragnarok",
-      "description": "此款遊戲為3x5連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "description": "3×5 連線型老虎機遊戲，以北歐神話為主題，主要負責Unity遊戲前端功能開發與轉輪動畫流程實作。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/01_Ragnarok.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/2EoBzr7G8wk?si=wZR7Ht9DMGTl3eWM",
@@ -57,7 +58,7 @@
       "details": [
         {
           "heading": "專案介紹",
-          "content": "Test"
+          "content": "《北歐諸神》為一款 3×5 連線型老虎機遊戲，以北歐神話為主題，結合角色圖像、遊戲動畫與連線獎勵機制，打造具有視覺效果與互動體驗的遊戲內容。"
         },
         {
           "heading": "負責內容",
@@ -72,7 +73,7 @@
 
     {
       "id": 2,
-      "category": "MrDiamond",
+      "category": "mrDiamond",
       "tag": "WORK EXPERIENCE",
       "year": "2025/04-2025/05",
       "title": "金鑽水果盤 Fruit",
@@ -104,7 +105,7 @@
 
     {
       "id": 3,
-      "category": "MrDiamond",
+      "category": "mrDiamond",
       "tag": "WORK EXPERIENCE",
       "year": "2025/05-2025/06",
       "title": "埃及:諸神爭霸 GodsOfEgypt",
@@ -136,7 +137,7 @@
 
     {
       "id": 4,
-      "category": "MrDiamond",
+      "category": "mrDiamond",
       "tag": "WORK EXPERIENCE",
       "year": "2025/06-2025/07",
       "title": "倩影三國 HeroineFate",
@@ -168,7 +169,7 @@
 
     {
       "id": 5,
-      "category": "MrDiamond",
+      "category": "mrDiamond",
       "tag": "WORK EXPERIENCE",
       "year": "2025/07-2025/08",
       "title": "鑽石輪盤 DiamondRoulette",
@@ -200,7 +201,7 @@
 
     {
       "id": 6,
-      "category": "MrDiamond",
+      "category": "mrDiamond",
       "tag": "WORK EXPERIENCE",
       "year": "2025/08-2025/09",
       "title": "鬥陣迺夜市 NightMarket",
@@ -232,7 +233,7 @@
 
     {
       "id": 7,
-      "category": "MrDiamond",
+      "category": "mrDiamond",
       "tag": "WORK EXPERIENCE",
       "year": "2025/09-2025/11",
       "title": "搶莊牛牛 BankerBull",
@@ -264,7 +265,7 @@
 
     {
       "id": 8,
-      "category": "MrDiamond",
+      "category": "mrDiamond",
       "tag": "WORK EXPERIENCE",
       "year": "2025/12-2026/02",
       "title": "喵喵彩券行 MeowMeowLotto",
@@ -296,7 +297,7 @@
 
     {
       "id": 9,
-      "category": "MrDiamond",
+      "category": "mrDiamond",
       "tag": "WORK EXPERIENCE",
       "year": "2026/03-2026/05",
       "title": "聚寶盆 TreasureBowl",
@@ -328,7 +329,7 @@
 
     {
       "id": 10,
-      "category": "MrDiamond",
+      "category": "mrDiamond",
       "tag": "WORK EXPERIENCE",
       "year": "2026/05-2026/07",
       "title": "熱帶黃金島 TropicalGoldenIsland",
@@ -360,7 +361,7 @@
 
     {
       "id": 11,
-      "category": "MrDiamond",
+      "category": "mrDiamond",
       "tag": "WORK EXPERIENCE",
       "year": "2026/06-2026/07",
       "title": "皇家比大小 RoyalHiLo",
