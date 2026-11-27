@@ -510,13 +510,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
             link.textContent = item.label || item.name || "Link";
 
-            // Email 使用 mailto: 格式
+            // Email：開啟郵件撰寫視窗
             if (item.type === "email") {
                 link.href = `mailto:${item.url}`;
-            } else {
+            }
+
+            // Resume：下載履歷 PDF
+            else if (item.type === "download") {
+                link.href = item.url;
+                link.download = "";
+            }
+
+            // 其他一般連結
+            else {
                 link.href = item.url;
             }
 
+            // 外部連結
             if (item.external) {
                 link.target = "_blank";
                 link.rel = "noopener noreferrer";

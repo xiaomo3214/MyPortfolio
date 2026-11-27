@@ -610,12 +610,12 @@
     "links": [
       {
         "type": "email",
-        "label": "Email ↗",
+        "label": "Email: meteor13579@yahoo.com.tw",
         "url": "meteor13579@yahoo.com.tw"
       },
       {
-        "type": "social",
-        "label": " ↗"
+        "type": "download",
+        "label": "Download Resume ↓"
       }
     ]
   },
