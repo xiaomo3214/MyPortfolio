@@ -62,12 +62,16 @@
         },
         {
           "heading": "負責內容",
-          "content": "依實際負責項目補充遊戲前端功能、介面系統、角色相關功能或其他開發工作。"
+          "content": "•負責Unity遊戲前端相關功能開發。\n•開發老虎機轉輪動畫及相關展演流程。\n•製作遊戲操作與畫面互動功能。\n•整合遊戲動畫與前端流程，確保遊戲操作及畫面呈現順暢。"
         },
         {
           "heading": "技術應用",
-          "content": "使用 Unity 與 C# 進行遊戲功能開發，並配合專案需求進行功能整合與測試。"
-        }
+          "content": "•Unity:遊戲前端功能、UI與互動流程開發。\n•C#:遊戲功能邏輯及流程控制。\n•DOTween:動畫效果及遊戲畫面動態呈現。"
+        },
+        {
+          "heading": "開發重點與挑戰",
+          "content": "•Unity:遊戲前端功能、UI與互動流程開發。\n•C#:遊戲功能邏輯及流程控制。\n•DOTween:動畫效果及遊戲畫面動態呈現。"
+        },
       ]
     },
 
@@ -78,6 +82,7 @@
       "year": "2025/04-2025/05",
       "title": "金鑽水果盤 Fruit",
       "description": "此款遊戲為3x3連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/02_Fruit.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/3flD3Rts6kM?si=n6HJgaH4VCxUmtmr",
@@ -110,6 +115,7 @@
       "year": "2025/05-2025/06",
       "title": "埃及:諸神爭霸 GodsOfEgypt",
       "description": "此款遊戲為3x5連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/03_GodsOfEgypt.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/qVKa0CNk9N8?si=fljEb4cZHwM9RP58",
@@ -142,6 +148,7 @@
       "year": "2025/06-2025/07",
       "title": "倩影三國 HeroineFate",
       "description": "此款遊戲為3x5連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/04_HeroineFate.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/QLHUQvZeikE?si=hFrMHl_PtXH1iG29",
@@ -174,6 +181,7 @@
       "year": "2025/07-2025/08",
       "title": "鑽石輪盤 DiamondRoulette",
       "description": "此款遊戲為，負責遊戲前端相關功能與輪盤輪轉的展演過程。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/05_DiamondRoulette.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/8U70UM6cIgc?si=7i6EoZHO0zk-wFgl",
@@ -206,6 +214,7 @@
       "year": "2025/08-2025/09",
       "title": "鬥陣迺夜市 NightMarket",
       "description": "此款遊戲為3x5連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/06_NightMarket.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/h6mAo2SNivg?si=yYkoaCmAn3W80SOy",
@@ -238,6 +247,7 @@
       "year": "2025/09-2025/11",
       "title": "搶莊牛牛 BankerBull",
       "description": "此款遊戲為多人卡牌遊戲，負責遊戲前端相關功能與牌局流程的展演過程。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/07_BankerBull.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/rtKi9UE0JEg?si=0gpKiTFMz_rLIQpC",
@@ -270,6 +280,7 @@
       "year": "2025/12-2026/02",
       "title": "喵喵彩券行 MeowMeowLotto",
       "description": "此款遊戲為5x6消除型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/08_MeowMeowLotto.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/u174ZrJQbT8?si=z3L-EKkP7d-M_i5V",
@@ -302,6 +313,7 @@
       "year": "2026/03-2026/05",
       "title": "聚寶盆 TreasureBowl",
       "description": "此款遊戲為柏青斯洛老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/09_TreasureBowl.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/JF4JI6iTxlw?si=CBJD2ObvQHxozGBW",
@@ -334,6 +346,7 @@
       "year": "2026/05-2026/07",
       "title": "熱帶黃金島 TropicalGoldenIsland",
       "description": "此款遊戲為3x5連線型老虎機，負責遊戲前端相關功能與老虎機輪轉的展演過程。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/10_TropicalGoldenIsland.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/jra_UIwpkpk?si=Z8VdgJsGYEbdr9u9",
@@ -366,6 +379,7 @@
       "year": "2026/06-2026/07",
       "title": "皇家比大小 RoyalHiLo",
       "description": "此款遊戲為撲克牌遊戲，負責遊戲前端相關功能與比大小的展演過程。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/11_RoyalHiLo.jpg",
       "imageAlt": "遊戲畫面展示",
       "videoUrl": "https://www.youtube.com/embed/OcPUF6yQQ4Y?si=4-dAP9Prp8Z1fWbx",
@@ -398,6 +412,7 @@
       "year": "研究所成果",
       "title": "跨場域 AR 多人互動展演系統",
       "description": "與台北電腦商會合作，參與跨場域 AR 多人互動展演系統開發。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/project-02.jpg",
       "imageAlt": "跨場域 AR 多人互動展演系統",
       "video": "videos/project-02.mp4",
@@ -430,6 +445,7 @@
       "year": "研究所論文",
       "title": "基於 Unity 的即時視線追蹤與渲染優化",
       "description": "以 Unity 為開發環境，研究即時視線追蹤與渲染優化相關技術。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/project-03.jpg",
       "imageAlt": "即時視線追蹤與渲染優化研究",
       "video": "videos/project-03.mp4",
@@ -462,6 +478,7 @@
       "year": "大學畢業專題",
       "title": "《代號：流浪者》3D 動作冒險遊戲",
       "description": "以 Unity 製作的 3D 動作冒險遊戲，整合遊戲玩法與互動機制。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/project-04.jpg",
       "imageAlt": "代號流浪者 3D 動作冒險遊戲",
       "video": "videos/project-04.mp4",
@@ -494,6 +511,7 @@
       "year": "大學期末專案",
       "title": "多媒體音效網格 2D 解謎遊戲",
       "description": "結合多媒體音效與解謎玩法的 2D 遊戲專案。",
+      "projectSubtitle": "3×5 Slot Game｜Unity Game Client",
       "image": "images/project-05.jpg",
       "imageAlt": "多媒體音效網格 2D 解謎遊戲",
       "video": "videos/project-05.mp4",
