@@ -612,6 +612,12 @@
         "type": "email",
         "label": "Email ↗",
         "url": "meteor13579@yahoo.com.tw"
+      },
+      {
+        "type": "social",
+        "label": " ↗",
+        "url": "1",
+        "external": false
       }
     ]
   },
